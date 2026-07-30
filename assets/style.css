@@ -1,0 +1,162 @@
+/* MediPredict AI - custom theme */
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
+html, body, [class*="css"] {
+    font-family: 'Inter', sans-serif;
+}
+
+#MainMenu {visibility: hidden;}
+footer {visibility: hidden;}
+header[data-testid="stHeader"] {background: transparent;}
+
+/* Hero banner */
+.mp-hero {
+    background: linear-gradient(120deg, #0F6E56 0%, #1D9E75 100%);
+    border-radius: 16px;
+    padding: 2.5rem 2.5rem;
+    color: #FFFFFF;
+    margin-bottom: 1.75rem;
+}
+.mp-hero h1 {
+    color: #FFFFFF;
+    font-size: 2.1rem;
+    font-weight: 700;
+    margin: 0 0 0.4rem 0;
+}
+.mp-hero p {
+    color: #E1F5EE;
+    font-size: 1.05rem;
+    margin: 0;
+    max-width: 640px;
+}
+
+/* Section header used at the top of every page */
+.mp-page-header {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    margin-bottom: 0.25rem;
+}
+.mp-page-header .mp-icon {
+    font-size: 1.8rem;
+    background: #E1F5EE;
+    color: #0F6E56;
+    border-radius: 10px;
+    width: 46px;
+    height: 46px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.mp-page-header h1 {
+    font-size: 1.6rem;
+    font-weight: 700;
+    margin: 0;
+    color: #1A2421;
+}
+.mp-page-subtitle {
+    color: #5F5E5A;
+    font-size: 0.98rem;
+    margin: 0.15rem 0 1.5rem 0;
+}
+
+/* Feature / step cards */
+.mp-card {
+    background: #FFFFFF;
+    border: 1px solid #E3E7E5;
+    border-radius: 14px;
+    padding: 1.25rem 1.4rem;
+    height: 100%;
+    box-shadow: 0 1px 3px rgba(15, 110, 86, 0.06);
+    transition: box-shadow 0.15s ease;
+}
+.mp-card:hover {
+    box-shadow: 0 4px 14px rgba(15, 110, 86, 0.12);
+}
+.mp-card .mp-step-num {
+    display: inline-block;
+    background: #0F6E56;
+    color: #FFFFFF;
+    font-weight: 600;
+    font-size: 0.78rem;
+    border-radius: 20px;
+    padding: 0.15rem 0.65rem;
+    margin-bottom: 0.6rem;
+}
+.mp-card h4 {
+    margin: 0 0 0.35rem 0;
+    font-size: 1.02rem;
+    font-weight: 600;
+    color: #1A2421;
+}
+.mp-card p {
+    margin: 0;
+    font-size: 0.88rem;
+    color: #5F5E5A;
+    line-height: 1.5;
+}
+
+/* Metric-style stat card */
+.mp-stat {
+    background: #F4F7F6;
+    border-radius: 12px;
+    padding: 1rem 1.1rem;
+    text-align: left;
+}
+.mp-stat .mp-stat-label {
+    font-size: 0.78rem;
+    color: #5F5E5A;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 0.03em;
+}
+.mp-stat .mp-stat-value {
+    font-size: 1.7rem;
+    font-weight: 700;
+    color: #0F6E56;
+    margin-top: 0.15rem;
+}
+
+/* Risk badges */
+.mp-badge {
+    display: inline-block;
+    padding: 0.35rem 1rem;
+    border-radius: 20px;
+    font-weight: 600;
+    font-size: 0.95rem;
+}
+.mp-badge-low { background: #EAF3DE; color: #27500A; }
+.mp-badge-moderate { background: #FAEEDA; color: #854F0B; }
+.mp-badge-high { background: #FCEBEB; color: #791F1F; }
+
+/* Disclaimer banner */
+.mp-disclaimer {
+    background: #FAEEDA;
+    border: 1px solid #EF9F27;
+    border-radius: 10px;
+    padding: 0.75rem 1rem;
+    font-size: 0.88rem;
+    color: #633806;
+    margin-bottom: 1.25rem;
+}
+
+/* Buttons */
+div.stButton > button, div.stFormSubmitButton > button {
+    background: #0F6E56;
+    color: #FFFFFF;
+    border-radius: 8px;
+    border: none;
+    padding: 0.5rem 1.4rem;
+    font-weight: 600;
+}
+div.stButton > button:hover, div.stFormSubmitButton > button:hover {
+    background: #085041;
+    color: #FFFFFF;
+}
+
+/* Sidebar */
+section[data-testid="stSidebar"] {
+    background: #F4F7F6;
+    border-right: 1px solid #E3E7E5;
+}
