@@ -173,5 +173,5 @@ never be used for real clinical decision-making.
 
 ## Author
 
-Qaim Ali — BS Computer Science, Iqra National University
+Qaim Ali — BS Computer Science, Abasyn University Peshawar
 GitHub: [kammi11](https://github.com/kammi11)
